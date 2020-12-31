@@ -56,6 +56,16 @@ background-position|背景位置|
 ||
 ||
 
-#在父类中选取子类的写法
-
+# 在父类中选取子类的写法
 父类 子类 子类 ... {}
+
+# 链接样式
+在style中把a:链接属性 当成一个整体
+
+# 浮动元素
+用float属性控制元素浮动，用clear属性控制是否允许浮动，用position属性控制元素是否绝对定位  
+margin和border都可以设置为auto  
+
+# 表格
+display属性的取值： table表示表元素  table-row表示行元素  table-cell表示单元格  
+border-spacing表示单元格间距，注意这个间距与margin不会折叠
