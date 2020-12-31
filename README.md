@@ -40,8 +40,8 @@ line-height|行高|长度型
 border-color|边框颜色|
 border-width|边框宽度|
 border-style|边框风格|
-padding-left|只在左边设置内边距|
-margin-right|只在右边设置外边距|
+padding-left|只在左边设置内边距|连写四个距离，顺序为上右下左
+margin-right|只在右边设置外边距|与padding互通，连写两个距离，顺序为(上下)(左右)
 border-radium|圆角半径|
 border-top-left-radius|左上角半径|
 
@@ -55,3 +55,7 @@ background-position|背景位置|
 ||
 ||
 ||
+
+#在父类中选取子类的写法
+
+父类 子类 子类 ... {}
