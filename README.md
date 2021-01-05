@@ -61,10 +61,16 @@ background-position|背景位置|
 
 # 链接样式
 在style中把a:链接属性 当成一个整体
+a:link  链接平时
+a:selected  鼠标放在链接上时  
+a:visited  点击过的链接  
 
 # 浮动元素
-用float属性控制元素浮动，用clear属性控制是否允许浮动，用position属性控制元素是否绝对定位  
+用float属性控制元素浮动，用clear属性控制是否允许浮动
 margin和border都可以设置为auto  
+postion:absolute 绝对位置。针对布局而言的，总是处在相对布局的某一个位置。  
+postion:fixed 相对位置。针对窗口而言的，总是处在相对窗口的某一个位置。
+
 
 # 表格
 display属性的取值： table表示表元素  table-row表示行元素  table-cell表示单元格  
